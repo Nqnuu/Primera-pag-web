@@ -1,0 +1,55 @@
+body{
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+  }
+  h1{
+    color: white;
+    font-family: arial;
+    font-size: 40px;
+    margin: 30px;
+  }
+  p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  h2{
+    color: white;
+    font-family: arial;
+    font-size: 30px;
+    margin: 30px;
+  }
+  h3{
+    color: white;
+    font-family: arial;
+    font-size: 30px;
+    margin: 30px;
+  }
+  head{
+    color: white;
+  }
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+  }
+  .bar-nav{
+    background-color: #172A3A;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .bar-nav:hover{
+    background: #004346;
+  }
+  nav{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid black;
+    border-radius: 10px;
+  }
